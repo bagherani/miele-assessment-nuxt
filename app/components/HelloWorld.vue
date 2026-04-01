@@ -3,9 +3,8 @@ type Props = {
   message: string
 }
 const props = defineProps<Props>()
-
 </script>
 
 <template>
-  hello {{ message }}
+  {{ message }}
 </template>
